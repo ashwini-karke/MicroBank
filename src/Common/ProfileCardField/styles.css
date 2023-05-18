@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Orbitron:wght@900&display=swap');
+
+.profileField
+{
+    border-top: 1px solid #E0E0E0;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #1A1A1A;
+    margin: 0px;
+    padding: 16px 0px;
+    text-align: left;
+    cursor: pointer;
+    margin-right: 24px;
+}

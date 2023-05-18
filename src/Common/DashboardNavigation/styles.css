@@ -1,0 +1,112 @@
+
+.dashboard-navigation-wrapper
+{
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 72px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+}
+.left-content,.dropdown-btn-wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-content
+{
+    display: flex;
+    margin-top: 20px;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.bell-img
+{
+    height: 20px;
+    width: 19px;
+    margin-right: 26px;
+}
+.user-profile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+    background: #D90429;
+    border-radius: 100px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-right: 11px;
+}
+.profile-dropdown
+{
+    height: 5px;
+    width: 10px;
+    margin-right: 31px;
+}
+.logo
+{
+    margin-left: 20px;
+    margin-right: 32px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    color: #D90429;
+    cursor: pointer;
+}
+.logo span
+{
+    color: #1A1A1A;
+}
+.vertical-bar
+{
+    width: 1px;
+    height: 40px;
+    background: #C4C4C4;
+    margin-right: 32px;
+}
+.company-name
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #1A1A1A;
+}
+.dropdown
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+@media screen and (max-device-width: 767px)
+{
+    .logo
+    {
+        margin-right: 10px;
+    }
+    .vertical-bar 
+    {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px)
+{
+    .logo
+    {
+        margin-right: 10px;
+    }
+    .vertical-bar 
+    {
+        margin-right: 10px;
+    }
+}

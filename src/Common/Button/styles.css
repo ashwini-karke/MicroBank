@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Orbitron:wght@900&display=swap');
+
+.button-component
+{
+    width: 320px;
+    height: 50px;
+    background: #D90429;
+    box-shadow: 0px 6px 28px 5px rgb(254 45 23 / 30%);
+    border-radius: 12px;
+    border: 1px solid #D90429;
+    padding: 0px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-wrapper
+{
+    position: relative;
+}
+.button-validation-err
+{
+    position: absolute;
+    bottom: -35px;
+    left: 0px;
+    color: red;
+}

@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "username": "Ashwini Karke",
+      "email": "ashwini@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "username": "ash",
+      "email": "ash@gmail.com",
+      "password": "12345",
+      "id": 2
+    }
+  ],
+  "stars": [
+    {
+      "serviceName": "Current Account",
+      "image": "Current",
+      "rating": 2,
+      "id": 1
+    },
+    {
+      "serviceName": "Payroll",
+      "rating": 3,
+      "id": 2
+    },
+    {
+      "serviceName": "Payment",
+      "image": "Payment",
+      "rating": 4,
+      "id": 3
+    }
+  ]
+}

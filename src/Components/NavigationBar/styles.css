@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Orbitron:wght@900&display=swap');
+
+
+.Summary
+{
+    width: 77px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 175%;
+    color: #1A1A1A;
+    height: 60px;
+    background: #FFFFFF;
+   
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: 1px solid #FFFFFF;
+    padding: 0px 24px;
+    width: 121px;
+    
+    cursor: pointer;
+}
+.Details
+{
+    width: 77px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    
+    font-size: 16px;
+    line-height: 175%;
+    color: #1A1A1A;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 0px 24px;
+    width: 121px;
+    
+    cursor: pointer;
+}
+.active
+{
+    font-weight: 700;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+    border-top-width: 3px;
+    border-top-color: #E8544B;
+}

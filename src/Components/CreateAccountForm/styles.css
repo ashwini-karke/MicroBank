@@ -1,0 +1,77 @@
+.err-msg
+{
+    color: red;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Orbitron:wght@900&display=swap');
+.login-txt
+{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1A1A1A;
+    margin: 0px;
+
+}
+
+.login-msg
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+    margin: 0px;
+}
+
+.forget-pass-txt
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    /* text-align: right; */
+    color: #D90429;
+    /* margin-top: 12px;
+    margin-bottom: 32px; */
+}
+.form-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    margin: auto;
+}
+.form-wrapper div
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.create-acc-txt
+{
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+}
+.CreateAccountPage
+{
+    display: flex;
+    height: 912px;
+    background-color: #ffff;
+}
+#inputField4
+{
+    margin-bottom:32px;
+}

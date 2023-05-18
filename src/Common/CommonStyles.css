@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Orbitron:wght@900&display=swap');
+.input-component
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.input-component div
+{
+    display: flex;
+    
+}
+.input-component input
+{
+    width: 300px;
+    height: 50px;
+    background: #E8E8E8;
+    border-radius: 12px;
+    border: 0px solid #E8E8E8;
+    padding: 0px 10px;
+}
+
+.input-component label
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1A1A1A;
+}
+
+.button-component
+{
+    width: 320px;
+    height: 50px;
+    background: #D90429;
+    box-shadow: 0px 6px 28px 5px rgba(254, 45, 23, 0.3);
+    border-radius: 12px;
+    border: 1px solid #D90429;
+    padding: 0px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.services-card p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1A1A1A;
+
+}
+
+.category-name
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1A1A1A;
+}
+.services-wrapper
+{
+    display: flex;
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Orbitron:wght@900&display=swap');
+
+
+    .dashboard-title
+{
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #1A1A1A;
+    background: #E5E5E5;
+}
+.dashboard-content-wrapper
+{
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.navigation-bar
+{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    height: 60px;
+    width: 100%;
+    text-align: left;
+}
+.summary-card-wrapper
+{
+    height: 145px;
+    width: 100%;
+    background: #FFF0F3;
+    border: 1px solid rgba(217, 4, 41, 0.2);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    margin-top: 12px;
+}
+.services-title
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1A1A1A;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+.services-title span
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1A1A1A;
+    
+}
+.footer
+{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #1A1A1A;
+    margin:11px 0px ;
+}
+.summary-wrapper
+{
+    width: 100%;
+}
+.dashboard-wrapper
+{
+    position: relative;
+}
+
+
+
+@media screen and (max-device-width: 767px)
+{
+    .summary-card-wrapper
+    {
+        height: 269px;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px)
+{
+    .summary-card-wrapper
+    {
+        height: 269px;
+    }
+}

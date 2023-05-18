@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Orbitron:wght@900&display=swap');
+.summary-card
+{
+    text-align: left;
+    padding: 24px 24px;
+}
+.summary-component-wrapper
+{
+    display: flex;
+}
+.summary-component-wrapper div
+{
+    padding-top: 24px;
+    padding-right: 230px;
+}
+.category
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1A1A1A;
+}
+/* .category-name
+{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.38);   
+    width: 95px;
+} */
+.category-details
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.15px;
+    color: #333333;
+}
+
+@media screen and (max-device-width: 767px)
+{
+    .summary-component-wrapper
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .category-details
+    {
+        margin: 0px;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px)
+{
+    .summary-component-wrapper
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .category-details
+    {
+        margin: 0px;
+    }
+}

@@ -1,0 +1,28 @@
+.edit-page
+{
+    background-color:  #E5E5E5;
+}
+.edit-profile-title
+{
+    margin: 0px 24px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #1A1A1A;
+}
+.footer
+{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #1A1A1A;
+    margin:11px 0px ;
+}

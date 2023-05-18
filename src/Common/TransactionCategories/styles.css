@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Orbitron:wght@900&display=swap');
+
+
+.transaction
+{
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.category-name
+{
+    width: 120px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 157%;
+    color: #828282;
+    margin: 0px 0px 4px 0px;
+    /* display: flex;
+    flex: none; */
+    /* order: 0;
+    flex-grow: 0; */
+}
+.category-detail
+{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #232F34;
+}

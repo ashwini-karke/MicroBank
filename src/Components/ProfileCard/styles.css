@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Orbitron:wght@900&display=swap');
+
+.profile-card
+{
+    margin-right: 22px;
+    margin-top: 15px;
+    z-index: 2;
+    box-sizing: border-box;
+    width: 321px;
+    height: 368px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 12px 12px;
+}
+.profile-wrapper
+{
+    margin-left: 24px;
+}
+
+.profile-picture
+{
+    
+    display: flex;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 24px;
+    background: #D90429;
+    border-radius: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+.username
+{
+    margin: 0px;
+    padding-top: 24px;
+    padding-bottom: 8px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 19px;
+    display: flex;
+    letter-spacing: 0.15px;
+    color: #333333;
+}
+.email
+{
+    margin: 0px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    text-decoration-line: underline;
+    color: #D90429;
+    padding-bottom: 24px;
+    
+}
+.profileField
+{
+    cursor: pointer;
+}
