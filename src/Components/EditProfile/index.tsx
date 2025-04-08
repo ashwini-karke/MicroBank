@@ -110,7 +110,7 @@ function EditProfile(props: any) {
       editableFields[3].value !== "" &&
       editableFields[4].value !== ""
     ) {
-      changePassword(username, email, updatedPassword, id);
+      changePassword(username, email, updatedPassword, userId);
       navigate("/Dashboard");
     } else {
       editableFields.forEach((e) => {
