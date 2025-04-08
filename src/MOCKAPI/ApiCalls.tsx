@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const url="https://json-server-heroku-hostingv1.herokuapp.com/"
-const url="https://my-json-server.typicode.com/ashwini-karke/MockApi/"
+const url="https://mockapi-afoc.onrender.com/"
 
 /* istanbul ignore next */
 export async function getUser(data:{userEmail:string,userPass:string})
