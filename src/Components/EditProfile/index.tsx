@@ -15,7 +15,7 @@ interface fields {
 }
 const editableFields: fields[] = [
   {
-    labelName: "Company Name",
+    labelName: "Name",
     type: "text",
     value: "",
     errMsg: "",
@@ -71,6 +71,8 @@ function EditProfile(props: any) {
     // const password = props.userData[2];
     // const id = props.userData[3];
     const updatedPassword = editableFields[3].value;
+    const updatedEmail = editableFields[1].value;
+    const updatedName = editableFields[0].value;
 
     if (
       editableFields[0].value === "" &&
@@ -110,7 +112,7 @@ function EditProfile(props: any) {
       editableFields[3].value !== "" &&
       editableFields[4].value !== ""
     ) {
-      changePassword(username, email, updatedPassword, userId);
+      changePassword(updatedName, updatedEmail, updatedPassword, userId);
       navigate("/Dashboard");
     } else {
       editableFields.forEach((e) => {
