@@ -59,7 +59,7 @@ function EditProfile(props: any) {
   async function ChangePassword() {
     const name = localStorage.getItem("username");
     const emailId = localStorage.getItem("email");
-    const userId = localStorage.getItem("id");
+    const userId = localStorage.getItem("id") || 0;
     const userPassword = localStorage.getItem("password");
     // setUsername(name? name:"Ashwini")
     // setEmail(email? email:"ashwini@123")
